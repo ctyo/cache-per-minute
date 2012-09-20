@@ -1,5 +1,4 @@
 (function () {
-    
     /*
      * set repeat span
      */
