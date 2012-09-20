@@ -1,0 +1,17 @@
+{
+    "name"        : "cache per minute",
+    "version"     : "0.2",
+    "description" : "repeat cleaning cache program.",
+    "permissions" : [
+	"browsingData"
+    ],
+    "icons" : {
+	"48" : "icon_48.png"
+
+    },
+    "background" : {
+	"scripts" : ["script.js"]
+    },
+    "manifest_version": 2,
+    "options_page": "option.html"
+}

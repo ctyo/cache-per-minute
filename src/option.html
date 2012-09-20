@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<title>cache per minute settings</title>
+
+<h1>cache per minute settings</h1>
+
+<p><span>
+  Save setting at localStrage. If you delete localStrage. Setting goto heaven :(<br/>
+  I think fix later....
+</span></p>
+
+<form id="option">
+
+<h2>delete item </h2>
+
+<ul>
+<li><input type="checkbox" name="delete" value="cache" checked>cache
+<li><input type="checkbox" name="delete" value="downloads" checked>downloads
+<li><input type="checkbox" name="delete" value="fileSystems" checked>fileSystems
+<li><input type="checkbox" name="delete" value="appcache" checked>appcache
+<li><input type="checkbox" name="delete" value="cookies">cookies
+<li><input type="checkbox" name="delete" value="formData">formData
+<li><input type="checkbox" name="delete" value="history">history
+<li><input type="checkbox" name="delete" value="indexedDB">indexedDB
+<li><input type="checkbox" name="delete" value="localStorage">localStorage
+<li><input type="checkbox" name="delete" value="pluginData">pluginData
+<li><input type="checkbox" name="delete" value="passwords">passwords
+<li><input type="checkbox" name="delete" value="webSQL">webSQL
+</ul>
+
+
+<h2>delete term</h2>
+<input type="number" id="term" name="term" value="" />
+<select id="unit" name="unit">
+  <option value="second">second
+  <option value="minute">minute
+  <option value="hour" selected>hour
+  <option value="day">day
+</select>
+
+
+<p><input type="button" id="save" value="save" /></p>
+</form>
+
+copyright <a href="http://ctyo.info/">ctyo.info</a>
+
+
+<script type="text/javascript" src="./option.js"></script>
